@@ -1,0 +1,145 @@
+.container {
+  width: 900px;
+  height: 600px;
+ 
+  display: flex;
+  justify-content: flex-end;  
+  align-items: center;
+  gap: 20px;  
+}
+.leftPane {
+  width: 450px;
+  height: 600px;
+  background-color: teal;
+  position: absolute;
+  transition: transform 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  background-image: url('/WALLPAPER.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ 
+
+.leftPane {
+  transform: translateX(-95%);
+}
+
+.leftContent{
+    width: 300px;
+    height: 200px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.leftContent h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.leftContent span{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 170px;
+    letter-spacing: .3;
+}
+
+.rightPanel {
+  width: 450px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 40px;
+   
+}
+
+.mainTitile {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.mainTitile h1{
+    font-family: sans-serif;
+    font-weight: 150;
+    font-size: 35px;   
+}
+
+
+
+
+.logIn{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 100px;
+  
+    justify-content: center;
+    gap: 10px;
+}
+.lable{
+    width: 330px;
+    height: 30px;
+ 
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: .7;
+    padding-left: 3px;
+
+}
+.input{
+    width: 330px;
+    height: 50px;
+    border: 2px solid lightgray;
+    -webkit-box-shadow: 4px 6px 13px -13px rgba(66, 68, 90, 1);
+-moz-box-shadow: 4px 6px 13px -13px rgba(66, 68, 90, 1);
+box-shadow: 4px 6px 13px -13px rgba(66, 68, 90, 1);
+border-radius: 9px;
+    
+}
+.input::placeholder {
+    padding-left: 20px;
+}
+
+.link{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+ 
+.link span {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+ 
